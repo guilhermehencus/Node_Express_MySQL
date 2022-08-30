@@ -1,0 +1,20 @@
+<html>
+  <head> 
+    <title> Exibir dados </title>
+    <link rel="stylesheet" type="text/css" href="dados_form.css" />
+  </head>
+  <body>
+    <section>
+      <h2> Seus dadoss </h2> 
+      Nome: <%= info.nome %> 
+      <br>
+      Email: <%= info.email %>
+      <br>
+      Senha: <%= info.senha %>
+      <form action="/ac2form" method="POST"/>
+        Seu cadastro está certo?
+        <input type="submit" value="Confirmar"/>
+      </form>
+    </section>
+  </body>
+</html>

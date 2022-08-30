@@ -1,0 +1,65 @@
+input[type="text"], input[type="password"] {
+    border: 2px solid #fd0;
+    padding: 8px;
+    border-radius: 15px;
+    color: #000;
+    margin: 7px;
+    text-align: center;
+    background-color: #eee;
+    transition: 1s;
+}
+
+    input[type="text"]:focus, input[type="password"]:focus {
+        transition: 1s;
+        border-color: #000;
+    }
+
+input[type="submit"] {
+    border: 2px solid #28f;
+    padding: 8px;
+    border-radius: 15px;
+    color: #000;
+    margin: 7px;
+    text-align: center;
+    transition: 1s;
+    background-color: #eee;
+     cursor: pointer;
+}
+
+    input[type="submit"]:hover {
+        transition: 1s;
+        background-color: #28f;
+    }
+#cadastro {
+    font-size: 0.8em;
+    border: 2px solid #0c2;
+    padding: 8px;
+    border-radius: 15px;
+    color: #000;
+    margin: 7px;
+    text-align: center;
+    background-color: #eee;
+    transition: 1s;
+}
+    #cadastro:hover {
+        transition: 1s;
+        background-color: #0c2;
+    }
+    section {
+    width: 200px;
+    height: auto;
+    margin: 30px auto 30px auto;
+    text-align: center;
+    padding: 20px;
+    border: 8px double #fc6;
+    background-color: #fff2c1;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #E6E6FA;
+}
+h2 {
+  text-align: center;
+}

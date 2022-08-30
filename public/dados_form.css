@@ -1,0 +1,26 @@
+section {
+    width: 200px;
+    height: auto;
+    margin: 30px auto 30px auto;
+    text-align: center;
+    padding: 20px;
+    border: 8px double #fc6;
+    background-color: #fff2c1;
+}
+input[type="submit"] {
+    border: 2px solid #28f;
+    padding: 8px;
+    border-radius: 15px;
+    color: #000;
+    margin: 7px;
+    text-align: center;
+    transition: 1s;
+    background-color: #eee;
+     cursor: pointer;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #fff;
+}

@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title> Exemplo </title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+  </head>
+  <h2> O site </h2>
+  <body>
+  <% if(locals.usuario) { %> 
+
+    <p> Seja bem vindo (a) <%= usuario.usuario %> || <a href="/logout"> Deslogar </a> </p>
+   <% }%>
+    <a href="/"> Index </a>
+    <br>
+     <a href="/sobre"> Sobre </a>
+     <br>
+     <a href="/exibirform"> Cadastro, responda </a>
+     <br>
+      <% if(locals.usuario) { %>
+      <a href="/cadastrarAdm"> Cadastro novo adm </a>
+     <% } else { %>
+      <a href="/login"> Logar  </a>
+     <% } %>
+     <br>
+     <a href="/mostrar"> Mostrar  </a>
+  </body>

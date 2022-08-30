@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title> Exemplo </title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+  </head>
+  <h2> O site </h2>
+  <% if(locals.mensagem) { %>
+  <p style="color:red"> <%= mensagem %> </p>
+  <% } %>
+  <body>
+    <form action="/login" method="POST">
+      Usuário:
+      <input type="text" name="usuario" required/> 
+      <br>
+      Senha:
+      <input type="password" name="senha" required/>
+      <br>
+      <input type="submit" value="Logar"/> 
+    </form>
+  </body>
